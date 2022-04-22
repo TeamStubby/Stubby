@@ -1,0 +1,380 @@
+* {
+font-family: 'Nunito', sans-serif;
+transition: all .2s ease-out;}
+
+html::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #333;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.2rem 0%;
+    border-bottom: 0.1rem solid rgba(0,0,0,.1);
+}
+
+header div #name{
+    text-decoration:none;
+    font-size:20px;
+    color:#333;
+    margin-left:-0px;
+    font-family: sans-serif;
+    font-weight: 500;}
+
+#nav a:hover{
+    color:#ff823a;}
+
+#nav{
+    display: block;
+}
+
+header div a{
+    text-decoration:none;
+    color:black;
+    font-size:1.1rem;
+    font-family: sans-serif;
+    margin-left:2rem;}
+
+header nav a{
+    text-decoration:none;
+    color:black;
+    font-size:1.1rem;
+    font-family: sans-serif;
+    margin-left:2rem;}
+
+#headimg{
+    border-radius: 70%;
+    height:30px;
+    margin-right: 5px;
+}
+
+#icon{
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+#home{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 5%;}
+
+
+#home #image{
+    height:600px;
+}
+
+#home #content h3{
+    font-size: 2.8rem;
+    font-family: sans-serif;
+    margin-top:50px;
+}
+
+#home #content p{
+    font-family: -webkit-pictograph;
+    font-size:17px;
+    color: #666;}
+
+#content{
+    height:500px;
+    width:380px;}
+
+#btnH{
+    display: inline-block;
+    margin-top: 1rem;
+    color:white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    background:black;
+    font-size: 1rem;
+    text-decoration:none;
+    font-family: system-ui;}
+
+#btnH:hover{
+    background:linear-gradient(90deg, #ff5959, #6363ff);}
+
+#homeicon{
+    display: flex;
+}
+
+#home2{
+    display: flex;
+    background-color:#ffbf23;
+    height: auto;
+    justify-content: space-between;
+    padding:5rem 7rem;
+    flex-wrap: wrap;
+}
+#home2 div{
+    width: 45%;
+}
+
+#home2 #first{
+    font-size: 2.5rem;
+}
+#home2 #sec{
+    font-size: 1.1rem;
+}
+#home3{
+    height: auto;
+    padding:5rem 10rem;
+}
+
+#home3 #nn{
+    width: 40%;
+}
+
+#home3 #wwo{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+#wwo div img{
+    border-radius: 5px;
+    border: 3px solid black;
+    height:300px;
+}
+#home3 #wwo div{
+    width: 250px;
+}
+#home3 #wwo div p{
+    font-size:1.5rem;
+}
+
+#bocbc{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+#bocbc img{
+    height: 550px;
+}
+#bocbc div{
+    width:45%;
+    margin-top: 180px;
+}
+
+#home4{
+    padding:3rem 10rem;
+    background-color: #ffd7ef;
+}
+#home4 img{
+    width:100%;
+}
+#para{
+    width:400px;
+}
+
+#pricing{
+    display:flex;
+    flex-wrap: wrap;
+    padding:5rem 15rem;
+    background-color:whitesmoke;
+    justify-content:space-between;
+}
+#pricing div{
+    width:40%;
+}
+#pricing div h2{
+    margin-top: 120px;
+}
+#pricing button{
+    background-color:black;
+    color:white;
+    padding:0.3rem 1.1rem;
+    border-radius: 8px;
+}
+
+#pricing img{
+    width:350px
+}
+#getstarted button{
+    background-color:black;
+    color:white;
+    padding:0.3rem 1.1rem;
+    border-radius: 8px;
+}
+
+#getstarted{
+    padding:5rem 5rem;
+    text-align:center;
+}
+#getstarted img{
+    width: 600px;
+}
+
+
+#footer{
+    border-bottom: 0.1rem solid rgba(0,0,0,.1);
+    display:flex;
+    gap:1rem;
+    justify-content: space-around;
+    background-color:#ffbf23;
+    border-radius: 10px;
+}
+
+.fdiv{
+    height:350px;
+    width:270px;
+    margin-top: 50px;}
+
+.fhead{
+    font-size: 1.4rem;
+    font-weight:550;
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;}
+
+.fabout{
+    font-family: serif;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);}
+
+.fabout a{
+    display: block;
+    font-size: 1.05rem;
+    padding: 0.7rem 0;
+    text-decoration:none;
+    color: rgb(0, 0, 0);}
+
+.fabout a:hover{
+    color:var(--theme);
+    }
+
+#box input{
+    border: 0.1rem solid rgba(0,0,0,.1);
+    width:45%;
+    border-radius:6px;
+    font-size:1rem;
+    color: #333;
+    padding: 0.5rem;
+    text-transform: none;
+    margin:3px;}
+
+#message{
+    border: 0.1rem solid rgba(0,0,0,.1);
+    width:45%;
+    height:1.5rem;
+    padding: 0.5rem;
+    font-size:1rem;
+    border-radius:6px;
+    margin:5px 7px 7px 3px;}
+
+#btn{
+    text-decoration:none;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;}
+
+#btn:hover{
+    background: linear-gradient(90deg, #ff5959, #6363ff);}
+
+#img a img{
+    height: 30px;
+    width: 30px;
+}
+
+
+@media screen and (max-width : 1290px){
+    #home div img{
+        height:600px;
+    }
+    #home3{
+        padding:1rem 3rem;
+    }
+    #home4{
+        padding:1rem 5rem;
+    }
+    #pricing{
+        padding:2rem 5rem;
+    }
+    #getstarted{
+        padding:2rem 0rem;
+    }
+}
+@media screen and (max-width : 980px){
+    #home div img{
+        height:500px;
+    }
+    #home{
+        padding: 0rem 0%;
+    }
+    #home2{
+        padding:1rem 3rem;
+    }
+    #home2 div{
+        width: 400px;
+    }
+    #home3{
+        height: auto;
+        padding:1rem 3rem;
+    }
+    #home3 #nn{
+        width: 80%;
+    }
+    #wwo div img{
+        border-radius: 5px;
+        border: 3px solid black;
+        height:250px;
+    }
+    #home3 #wwo div{
+        width: 200px;
+    }
+    #bocbc img{
+        height: 450px;
+    }
+    #bocbc div{
+        width:300px;
+        margin-top: 100px;
+    }
+    #para{
+        width:100%;
+    }
+    #pricing div{
+        width:40%;
+    }
+    #getstarted img{
+        width: 500px;
+    }
+    #pricing img{
+        width:250px
+    }
+    #pricing div h2{
+        margin-top: 0px;
+    }
+    #home #image{
+        height:auto;
+    }
+    #content{
+        height:auto;}
+}
+
+@media screen and (max-width : 780px){
+    #pricing div{
+        width:80%;
+    }
+    #pricing{
+        padding:2rem 1rem;
+    }
+    #getstarted img{
+        width: 400px;
+    }
+    #footer{
+        display:none;
+    }
+}

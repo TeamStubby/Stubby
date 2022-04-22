@@ -1,0 +1,97 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    transition: all .2s ease-out;}
+
+h1{
+    font-family: cursive;}
+
+
+
+#main{
+   /* border:2px solid black; */
+   height:500px;
+   width:800px; 
+   margin:80px 450px 20px 450px;
+}
+#main #head{
+    font-weight: 600;
+    font-size:2rem;
+}
+#main input{ 
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width:450px;
+    font-size:1.2rem;
+}
+#main button{
+    border-radius: 50px;
+    background-color: #e1e2e6;
+    border: none;
+    padding:0.5rem 1.5rem;
+    font-size:1.2rem;
+}
+#main button:hover{
+    background-color:#116dff;
+    color:#e1e2e6;
+    
+}
+
+#exapmles{
+    margin:50px;
+}
+#exapmles #exp{
+    color:#bdc2c8;
+    font-size:15px;
+}
+#exapmles .fill:hover{
+    color:#116dff;
+}
+
+#skip{
+    position:absolute;  
+    right:0;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+}
+#skip:hover{
+    color:#116dff; 
+}
+#back{
+    position:absolute;  
+    left:0;
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+}
+#back:hover{
+    color:#116dff; 
+}
+
+#flex{
+    display: flex;
+    display: none;
+    text-align: center;
+    margin:120px 300px 280px 300px;
+    justify-content:space-between;
+    gap: 5rem;
+}
+
+#flex div{
+    width:400px;
+}
+#flex div #one{
+    font-size: 2rem;
+    font-weight: 700;
+}
+#flex div #two{
+    color:#7d7d7e;
+    margin-bottom: 3rem;
+}
+#flex div a{
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    padding:1rem 2rem;
+    color:white;
+    background-color:#116dff;
+}
+
