@@ -50,6 +50,14 @@ def basic():
         return render_template('index.html')
     return render_template('index.html')
 
+@app.route('/select/')
+def select():
+    return render_template('select.html')
+
+@app.route('/template/')
+def template():
+    return render_template('template.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=2002)
