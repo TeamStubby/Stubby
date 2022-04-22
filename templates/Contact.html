@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+
+<link rel="stylesheet" href="/static/CSS/login.css">
+
+<body>
+
+<div id="container">
+        
+    <header id="header">
+        <div>
+            <a id="name" href="/">STUBBY</a>
+            <a href="#">My Sites</a>
+            <a href="#">Explore</a>
+            <a href="#">Help</a>
+            <a href="#">Our Team</a>
+            <a href="index.html">Home</a>
+        </div>
+        <nav id="nav">
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/tkgyrmwc.json"
+                trigger="hover"
+                colors="primary:#121331,secondary:#7166ee"
+                style="width:40px;height:40px">
+            </lord-icon>
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon
+                id="icon"
+                src="https://cdn.lordicon.com/msoeawqm.json"
+                trigger="hover"
+                colors="primary:#121331,secondary:#7166ee"
+                style="width:40px;height:40px">
+            </lord-icon>
+            <a href="#" style="margin-right:10px; margin-left:-0px">Swapnil Tayal</a>
+        </nav>
+    </header>
+
+    <section id="sectionC">
+
+        <div id="contact">
+            <img src="/static/assets/images/conatct.png" id="Cimg">
+            <form id="form" method="post">
+                <div id="main">
+                    <div id="box">
+                        <input type="text" name="name" placeholder="name" id="name" onclick= "bor()" required>
+                        <input type="email" name="email" placeholder="email" id="email" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="subject" id="subject" required >
+                    <textarea placeholder="message" name="message" id="message"></textarea>
+                    <button id="btn" type="submit" onclick="location.href='/select'" value="add">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+<script src="script.js"></script>
+
+</div>
+</body>
+</html>
