@@ -1,69 +1,154 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: #E3E3E3;
+    font-family: "Lato", sans-serif;
 }
-header nav{
-    background-color: white;
+
+header nav {
+    background-color: #ffbf23;
+    color: white;
     border: 1px solid rgb(170, 168, 168);
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     padding: 16px;
 }
 
 
-header nav ul li{
+header nav ul li {
     list-style: none;
+    cursor: pointer;
     margin: 10px;
     text-transform: uppercase;
 }
 
-.info-tape{
+.info-tape {
     /* background-color: #1B285F; */
     background-color: white;
     color: black;
     /* text-align: center; */
-    
+
     display: flex;
 }
 
-.info-tape div{
+.info-tape div {
     display: flex;
 
     padding: 24px;
     border-right: 1px solid rgb(170, 168, 168);
 }
 
-.info-tape div lord-icon{
+.info-tape div lord-icon {
     margin-left: 80px;
-    float:right;
+    float: right;
 }
 
 
 
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#side-bar {
+    width: 3%;
+    padding: 4px;
+    height: 823px;
+    /* background-color: white; */
+    /* margin-top: -50%; */
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 45px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #ffbf23;
+    padding-left: 8px;
+}
+
+.fa{
+    color:black;
+}
 
 
-main section{
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+main section {
+    width: 97%;
+    height: 836px;
+    background-color: rgba(38, 38, 130, 0.405);
     text-align: center;
     padding-top: 5%;
 }
 
-.cap{
+.cap {
     font-size: 85px;
     font-weight: bolder;
     letter-spacing: 3px;
 }
-.cap::first-letter{
+
+.cap::first-letter {
     font-size: 95px;
 }
 
 
-.desc-text{
+.desc-text {
     font-size: 20px;
     margin: 8px;
 }

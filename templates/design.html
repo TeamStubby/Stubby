@@ -13,12 +13,7 @@
     <header>
         <nav>
             <ul>
-                <li>
-                    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
-                    <lord-icon src="https://cdn.lordicon.com/keogyrep.json" trigger="loop" colors="primary:black"
-                        style="width:25px;height:25px">
-                    </lord-icon>Logo
-                </li>
+                <li onclick="location.href='/'">STUBBY</li>
                 <li>Site</li>
                 <li>Settings</li>
                 <li>Dev Mode</li>
@@ -38,7 +33,8 @@
                 </lord-icon>
             </div>
             <div>
-                <p>WEB </p> <p> APP</p>
+                <p>WEB </p>
+                <!-- <p> APP</p> -->
             </div>
         </section>
     </header>
@@ -46,10 +42,27 @@
 
 
     <main>
+        <aside id="side-bar">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+                <a href="#">Nav Elements</a>
+                <a href="#">Elements</a>
+                <button class="dropdown-btn">Buttons
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#" onclick="openNav()">Round Button</a>
+                    
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                <a href="#">Footer</a>
+
+            </div>
+            <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </aside>
         <section>
-            <p class="cap">Create a website <br> you're proud of</p>
-            <p class="desc-text">Discover the platform that gives you the freedom to create, design,<br>
-                manage and develop your web presence exactly the way you want.</p>
+
         </section>
 
 
@@ -63,7 +76,7 @@
 
 
 
-    <script src="JavaScript/design.js"></script>
+    <script src="/static/js/design.js"></script>
     <script src="JavaScript/jquery-3.6.0.js"></script>
 </body>
 
