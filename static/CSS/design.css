@@ -152,3 +152,17 @@ main section {
     font-size: 20px;
     margin: 8px;
 }
+
+
+#drag1{
+    padding: 16px;
+    background-color:cyan;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0px 2px 8px dimgray;
+}
+
+#drag1:hover{
+    background-color: rgb(0, 221, 255);
+}

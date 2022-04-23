@@ -52,7 +52,9 @@
                 </button>
                 <div class="dropdown-container">
                     <a href="#" onclick="openNav()">Round Button</a>
-                    
+                    <a ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <button id="drag1" draggable="true" ondragstart="drag(event)" >Submit</button>
+                    </a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                 </div>
@@ -61,7 +63,7 @@
             </div>
             <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </aside>
-        <section>
+        <section id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
 
         </section>
 
